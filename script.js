@@ -1,0 +1,1 @@
+document.querySelectorAll('.menu-toggle').forEach(function(button){button.addEventListener('click',function(){var nav=button.closest('.header-inner').querySelector('.desktop-nav');var open=nav.classList.toggle('is-open');button.setAttribute('aria-expanded',String(open));button.setAttribute('aria-label',open?'إغلاق القائمة':'فتح القائمة');});});
